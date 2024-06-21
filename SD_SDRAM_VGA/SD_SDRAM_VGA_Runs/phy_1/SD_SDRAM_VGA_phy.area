@@ -1,0 +1,100 @@
+standard
+***Report Model: hdmi_colorbar Device: EG4S20BG256***
+
+IO Statistics
+#IO                        36
+  #input                    3
+  #output                  33
+  #inout                    0
+
+Utilization Statistics
+#lut                      370   out of  19600    1.89%
+#reg                       99   out of  19600    0.51%
+#le                       402
+  #lut only               303   out of    402   75.37%
+  #reg only                32   out of    402    7.96%
+  #lut&reg                 67   out of    402   16.67%
+#dsp                        0   out of     29    0.00%
+#bram                       0   out of     64    0.00%
+  #bram9k                   0
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#pad                       36   out of    188   19.15%
+  #ireg                     1
+  #oreg                     0
+  #treg                     0
+#pll                        1   out of      4   25.00%
+#gclk                       1   out of     16    6.25%
+
+Clock Resource Statistics
+Index     ClockNet                             Type               DriverType         Driver                      Fanout
+#1        sd_clk_dup_1                         GCLK               pll                U_pll_clk/pll_inst.clkc2    28
+#2        U_pll_clk/clk0_buf                   GCLK               pll                U_pll_clk/pll_inst.clkc0    18
+#3        sd_ctrl_inst/sd_read_inst/sys_clk    GCLK               pll                U_pll_clk/pll_inst.clkc1    17
+#4        sys_clk_dup_1                        GeneralRouting     io                 sys_clk_syn_2.di            1
+
+
+Detailed IO Report
+
+        Name          Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+      sd_miso           INPUT         P1        LVCMOS33          N/A           NONE       IREG    
+      sys_clk           INPUT        K14        LVCMOS33          N/A          PULLUP      NONE    
+     sys_rst_n          INPUT         T4        LVCMOS33          N/A          PULLUP      NONE    
+    hdmi_out_clk       OUTPUT         H2        LVCMOS33           8            NONE       NONE    
+    hdmi_out_de        OUTPUT        H16        LVCMOS33           8            N/A        NONE    
+   hdmi_out_hsync      OUTPUT         J3        LVCMOS33           8            NONE       NONE    
+  hdmi_out_rgb[23]     OUTPUT         K6        LVCMOS33           8            NONE       NONE    
+  hdmi_out_rgb[22]     OUTPUT         K3        LVCMOS33           8            NONE       NONE    
+  hdmi_out_rgb[21]     OUTPUT         K5        LVCMOS33           8            NONE       NONE    
+  hdmi_out_rgb[20]     OUTPUT         L4        LVCMOS33           8            NONE       NONE    
+  hdmi_out_rgb[19]     OUTPUT         M1        LVCMOS33           8            NONE       NONE    
+  hdmi_out_rgb[18]     OUTPUT         M2        LVCMOS33           8            NONE       NONE    
+  hdmi_out_rgb[17]     OUTPUT         L3        LVCMOS33           8            NONE       NONE    
+  hdmi_out_rgb[16]     OUTPUT         L5        LVCMOS33           8            NONE       NONE    
+  hdmi_out_rgb[15]     OUTPUT         H5        LVCMOS33           8            NONE       NONE    
+  hdmi_out_rgb[14]     OUTPUT         H1        LVCMOS33           8            NONE       NONE    
+  hdmi_out_rgb[13]     OUTPUT         J6        LVCMOS33           8            NONE       NONE    
+  hdmi_out_rgb[12]     OUTPUT         H3        LVCMOS33           8            NONE       NONE    
+  hdmi_out_rgb[11]     OUTPUT         J1        LVCMOS33           8            NONE       NONE    
+  hdmi_out_rgb[10]     OUTPUT         K1        LVCMOS33           8            NONE       NONE    
+  hdmi_out_rgb[9]      OUTPUT         K2        LVCMOS33           8            NONE       NONE    
+  hdmi_out_rgb[8]      OUTPUT         L1        LVCMOS33           8            NONE       NONE    
+  hdmi_out_rgb[7]      OUTPUT         C1        LVCMOS33           8            NONE       NONE    
+  hdmi_out_rgb[6]      OUTPUT         D1        LVCMOS33           8            NONE       NONE    
+  hdmi_out_rgb[5]      OUTPUT         E2        LVCMOS33           8            NONE       NONE    
+  hdmi_out_rgb[4]      OUTPUT         G3        LVCMOS33           8            NONE       NONE    
+  hdmi_out_rgb[3]      OUTPUT         E1        LVCMOS33           8            NONE       NONE    
+  hdmi_out_rgb[2]      OUTPUT         F2        LVCMOS33           8            NONE       NONE    
+  hdmi_out_rgb[1]      OUTPUT         F1        LVCMOS33           8            NONE       NONE    
+  hdmi_out_rgb[0]      OUTPUT         G1        LVCMOS33           8            NONE       NONE    
+   hdmi_out_rst_n      OUTPUT        E15        LVCMOS33           8            N/A        NONE    
+   hdmi_out_vsync      OUTPUT         J4        LVCMOS33           8            NONE       NONE    
+        led            OUTPUT         M3        LVCMOS33           8            NONE       NONE    
+       sd_clk          OUTPUT         M9        LVCMOS33           8            NONE       NONE    
+      sd_cs_n          OUTPUT         R1        LVCMOS33           8            NONE       NONE    
+      sd_mosi          OUTPUT         P2        LVCMOS33           8            NONE       NONE    
+
+Report Hierarchy Area:
++-------------------------------------------------------------------------------------+
+|Instance         |Module        |le     |lut     |ripple  |seq     |bram    |dsp     |
++-------------------------------------------------------------------------------------+
+|top              |hdmi_colorbar |402    |251     |119     |100     |0       |0       |
+|  U_pll_clk      |pll_clk       |1      |1       |0       |0       |0       |0       |
+|  sd_ctrl_inst   |sd_ctrl       |151    |102     |17      |71      |0       |0       |
+|    sd_init_inst |sd_init       |151    |102     |17      |71      |0       |0       |
+|  vga_ctrl_inst  |vga_ctrl      |139    |77      |62      |23      |0       |0       |
+|  vga_pic_inst   |vga_pic       |101    |61      |40      |4       |0       |0       |
++-------------------------------------------------------------------------------------+
+
+
+DataNet Average Fanout:
+
+   Index     Fanout    Nets  
+    #1         1       232   
+    #2         2        34   
+    #3         3        19   
+    #4         4        18   
+    #5        5-10      52   
+    #6       11-50      6    
+    #7       51-100     1    
+  Average     2.56           

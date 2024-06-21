@@ -1,0 +1,40 @@
+standard
+***Report Model: hdmi_colorbar Device: EG4S20BG256***
+
+IO Statistics
+#IO                        36
+  #input                    3
+  #output                  33
+  #inout                    0
+
+Gate Statistics
+#Basic gates              146
+  #and                     20
+  #nand                     0
+  #or                       8
+  #nor                      0
+  #xor                      0
+  #xnor                     0
+  #buf                      0
+  #not                      7
+  #bufif1                   0
+  #MX21                    11
+  #FADD                     0
+  #DFF                    100
+  #LATCH                    0
+#MACRO_ADD                 35
+#MACRO_EQ                  10
+#MACRO_MUX                 75
+#MACRO_OTHERS               1
+
+Report Hierarchy Area:
++--------------------------------------------------------+
+|Instance         |Module        |gates  |seq    |macros |
++--------------------------------------------------------+
+|top              |hdmi_colorbar |46     |100    |46     |
+|  U_pll_clk      |pll_clk       |0      |0      |1      |
+|  sd_ctrl_inst   |sd_ctrl       |17     |72     |15     |
+|    sd_init_inst |sd_init       |15     |72     |15     |
+|  vga_ctrl_inst  |vga_ctrl      |6      |24     |13     |
+|  vga_pic_inst   |vga_pic       |20     |4      |17     |
++--------------------------------------------------------+

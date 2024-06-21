@@ -1,0 +1,43 @@
+standard
+***Report Model: hdmi_colorbar Device: EG4S20BG256***
+
+IO Statistics
+#IO                        36
+  #input                    3
+  #output                  33
+  #inout                    0
+
+LUT Statistics
+#Total_luts               391
+  #lut4                    95
+  #lut5                    35
+  #lut6                     1
+  #lut5_mx41                0
+  #lut4_alu1b             260
+
+Utilization Statistics
+#lut                      392   out of  19600    2.00%
+#reg                       99   out of  19600    0.51%
+#le                         0
+#dsp                        0   out of     29    0.00%
+#bram                       0   out of     64    0.00%
+  #bram9k                   0
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#pad                       36   out of    188   19.15%
+  #ireg                     1
+  #oreg                     0
+  #treg                     0
+#pll                        1   out of      4   25.00%
+
+Report Hierarchy Area:
++-----------------------------------------------------------------------------+
+|Instance         |Module        |lut     |ripple  |seq     |bram    |dsp     |
++-----------------------------------------------------------------------------+
+|top              |hdmi_colorbar |132     |260     |100     |0       |0       |
+|  U_pll_clk      |pll_clk       |1       |0       |0       |0       |0       |
+|  sd_ctrl_inst   |sd_ctrl       |85      |43      |71      |0       |0       |
+|    sd_init_inst |sd_init       |85      |43      |71      |0       |0       |
+|  vga_ctrl_inst  |vga_ctrl      |14      |137     |24      |0       |0       |
+|  vga_pic_inst   |vga_pic       |23      |80      |4       |0       |0       |
++-----------------------------------------------------------------------------+

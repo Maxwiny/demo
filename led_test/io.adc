@@ -1,0 +1,5 @@
+set_pin_assignment	{ clk }	{ LOCATION = K14; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment	{ led5 }	{ LOCATION = P4; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ led6 }	{ LOCATION = N5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ rstn }	{ LOCATION = H14; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+

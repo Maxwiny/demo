@@ -1,0 +1,1107 @@
+============================================================
+   Tang Dynasty, V5.6.71036
+      Copyright (c) 2012-2023 Anlogic Inc.
+   Executable = E:/SoftWare/FPGA/Anlogic/bin/td.exe
+   Built at =   20:34:38 Mar 21 2023
+   Run by =     Maxwiny
+   Run Date =   Sun May 19 03:16:17 2024
+
+   Run on =     MAXWINY-FA506QR
+============================================================
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file rtl/hdmi_colorbar.v
+HDL-1007 : analyze verilog file rtl/vga_ctrl.v
+HDL-1007 : analyze verilog file rtl/vga_pic.v
+HDL-1007 : analyze verilog file rtl/hdmi_colorbar.v
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file al_ip/pll_clk.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in al_ip/pll_clk.v(71)
+HDL-1007 : analyze verilog file rtl/hdmi_colorbar.v
+RUN-1001 : launch_runs syn_1 -step opt_gate.
+RUN-1001 : reset_run phy_1.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : open_run syn_1.
+RUN-1002 : start command "import_db C:/Users/Maxwiny/Desktop/SD_SDRAM_VGA/SD_SDRAM_VGA_Runs/syn_1/SD_SDRAM_VGA_gate.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+RUN-1001 : reset_run syn_1 phy_1.
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db C:/Users/Maxwiny/Desktop/SD_SDRAM_VGA/SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : clock net hdmi_out_clk_dup_1 will be merged with clock U_pll_clk/clk0_buf
+PHY-1001 : net sys_clk_dup_1 will be routed on clock mesh
+PHY-1001 : eco open net = 0
+PHY-1001 : 0 feed throughs used by 0 nets
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+RUN-1003 : finish command "import_db C:/Users/Maxwiny/Desktop/SD_SDRAM_VGA/SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA_pr.db" in  3.257545s wall, 3.187500s user + 0.156250s system = 3.343750s CPU (102.6%)
+
+RUN-1004 : used memory is 479 MB, reserved memory is 418 MB, peak memory is 508 MB
+RUN-1002 : start command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.181491s wall, 0.046875s user + 0.031250s system = 0.078125s CPU (1.3%)
+
+RUN-1004 : used memory is 521 MB, reserved memory is 460 MB, peak memory is 537 MB
+RUN-1003 : finish command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0" in  6.505461s wall, 0.125000s user + 0.031250s system = 0.156250s CPU (2.4%)
+
+RUN-1004 : used memory is 521 MB, reserved memory is 460 MB, peak memory is 537 MB
+GUI-1001 : Downloading succeeded!
+HDL-1007 : analyze verilog file rtl/vga_ctrl.v
+RUN-1001 : reset_run syn_1 phy_1.
+GUI-6001 WARNING: File C:/Users/Maxwiny/Desktop/SD_SDRAM_VGA/SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA.bit does not exist!
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db C:/Users/Maxwiny/Desktop/SD_SDRAM_VGA/SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : clock net hdmi_out_clk_dup_1 will be merged with clock U_pll_clk/clk0_buf
+PHY-1001 : net sys_clk_dup_1 will be routed on clock mesh
+PHY-1001 : eco open net = 0
+PHY-1001 : 0 feed throughs used by 0 nets
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+HDL-1007 : analyze verilog file rtl/vga_pic.v
+RUN-1001 : reset_run syn_1 phy_1.
+GUI-6001 WARNING: File C:/Users/Maxwiny/Desktop/SD_SDRAM_VGA/SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA.bit does not exist!
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db C:/Users/Maxwiny/Desktop/SD_SDRAM_VGA/SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : clock net hdmi_out_clk_dup_1 will be merged with clock U_pll_clk/clk0_buf
+PHY-1001 : net sys_clk_dup_1 will be routed on clock mesh
+PHY-1001 : eco open net = 0
+PHY-1001 : 0 feed throughs used by 0 nets
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+RUN-1002 : start command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.183015s wall, 0.125000s user + 0.015625s system = 0.140625s CPU (2.3%)
+
+RUN-1004 : used memory is 528 MB, reserved memory is 472 MB, peak memory is 544 MB
+RUN-1003 : finish command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0" in  6.507676s wall, 0.203125s user + 0.031250s system = 0.234375s CPU (3.6%)
+
+RUN-1004 : used memory is 528 MB, reserved memory is 472 MB, peak memory is 544 MB
+GUI-1001 : Downloading succeeded!
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file al_ip/pll_clk.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in al_ip/pll_clk.v(71)
+HDL-1007 : analyze verilog file rtl/hdmi_colorbar.v
+HDL-1007 : analyze verilog file rtl/vga_ctrl.v
+HDL-1007 : analyze verilog file rtl/vga_pic.v
+RUN-1001 : reset_run syn_1 phy_1.
+GUI-6001 WARNING: File C:/Users/Maxwiny/Desktop/SD_SDRAM_VGA/SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA.bit does not exist!
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db C:/Users/Maxwiny/Desktop/SD_SDRAM_VGA/SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : clock net hdmi_out_clk_dup_1 will be merged with clock U_pll_clk/clk0_buf
+PHY-1001 : net sys_clk_dup_1 will be routed on clock mesh
+PHY-1001 : eco open net = 0
+PHY-1001 : 0 feed throughs used by 0 nets
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+RUN-1002 : start command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.182282s wall, 0.062500s user + 0.031250s system = 0.093750s CPU (1.5%)
+
+RUN-1004 : used memory is 533 MB, reserved memory is 477 MB, peak memory is 550 MB
+RUN-1003 : finish command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0" in  6.503412s wall, 0.140625s user + 0.046875s system = 0.187500s CPU (2.9%)
+
+RUN-1004 : used memory is 533 MB, reserved memory is 477 MB, peak memory is 550 MB
+GUI-1001 : Downloading succeeded!
+HDL-1007 : analyze verilog file rtl/vga_ctrl.v
+HDL-1007 : analyze verilog file rtl/vga_pic.v
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file al_ip/pll_clk.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in al_ip/pll_clk.v(71)
+HDL-1007 : analyze verilog file rtl/hdmi_colorbar.v
+HDL-1007 : analyze verilog file rtl/vga_ctrl.v
+HDL-1007 : analyze verilog file rtl/vga_pic.v
+RUN-1001 : reset_run syn_1 phy_1.
+GUI-6001 WARNING: File C:/Users/Maxwiny/Desktop/SD_SDRAM_VGA/SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA.bit does not exist!
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db C:/Users/Maxwiny/Desktop/SD_SDRAM_VGA/SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : clock net hdmi_out_clk_dup_1 will be merged with clock U_pll_clk/clk0_buf
+PHY-1001 : net sys_clk_dup_1 will be routed on clock mesh
+PHY-1001 : eco open net = 0
+PHY-1001 : 0 feed throughs used by 0 nets
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+RUN-1002 : start command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.182931s wall, 0.046875s user + 0.046875s system = 0.093750s CPU (1.5%)
+
+RUN-1004 : used memory is 533 MB, reserved memory is 475 MB, peak memory is 550 MB
+RUN-1003 : finish command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0" in  6.505621s wall, 0.125000s user + 0.062500s system = 0.187500s CPU (2.9%)
+
+RUN-1004 : used memory is 533 MB, reserved memory is 475 MB, peak memory is 550 MB
+GUI-1001 : Downloading succeeded!
+HDL-1007 : analyze verilog file rtl/vga_pic.v
+HDL-1007 : analyze verilog file rtl/vga_pic.v
+RUN-1001 : reset_run phy_1.
+RUN-8001 ERROR: Run syn_1 should be up to date.
+GUI-6001 WARNING: File C:/Users/Maxwiny/Desktop/SD_SDRAM_VGA/SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA.bit does not exist!
+RUN-1001 : reset_run syn_1 phy_1.
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db C:/Users/Maxwiny/Desktop/SD_SDRAM_VGA/SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : clock net hdmi_out_clk_dup_1 will be merged with clock U_pll_clk/clk0_buf
+PHY-1001 : net sys_clk_dup_1 will be routed on clock mesh
+PHY-1001 : eco open net = 0
+PHY-1001 : 0 feed throughs used by 0 nets
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+RUN-1002 : start command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.181982s wall, 0.031250s user + 0.015625s system = 0.046875s CPU (0.8%)
+
+RUN-1004 : used memory is 539 MB, reserved memory is 480 MB, peak memory is 556 MB
+RUN-1003 : finish command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0" in  6.506341s wall, 0.109375s user + 0.015625s system = 0.125000s CPU (1.9%)
+
+RUN-1004 : used memory is 539 MB, reserved memory is 480 MB, peak memory is 556 MB
+GUI-1001 : Downloading succeeded!
+HDL-1007 : analyze verilog file rtl/hdmi_colorbar.v
+HDL-1007 : undeclared symbol 'clk_50m', assumed default net type 'wire' in rtl/hdmi_colorbar.v(80)
+HDL-1007 : undeclared symbol 'clk_50m_shift', assumed default net type 'wire' in rtl/hdmi_colorbar.v(81)
+HDL-1007 : undeclared symbol 'sd_miso', assumed default net type 'wire' in rtl/hdmi_colorbar.v(85)
+HDL-1007 : undeclared symbol 'sd_clk', assumed default net type 'wire' in rtl/hdmi_colorbar.v(86)
+HDL-1007 : undeclared symbol 'sd_cs_n', assumed default net type 'wire' in rtl/hdmi_colorbar.v(87)
+HDL-1007 : undeclared symbol 'sd_mosi', assumed default net type 'wire' in rtl/hdmi_colorbar.v(88)
+HDL-1007 : undeclared symbol 'sd_rd_en', assumed default net type 'wire' in rtl/hdmi_colorbar.v(96)
+HDL-1007 : undeclared symbol 'sd_rd_addr', assumed default net type 'wire' in rtl/hdmi_colorbar.v(97)
+HDL-1007 : undeclared symbol 'sd_rd_busy', assumed default net type 'wire' in rtl/hdmi_colorbar.v(98)
+HDL-1007 : undeclared symbol 'sd_rd_data_en', assumed default net type 'wire' in rtl/hdmi_colorbar.v(99)
+HDL-1007 : undeclared symbol 'sd_rd_data', assumed default net type 'wire' in rtl/hdmi_colorbar.v(100)
+HDL-1007 : undeclared symbol 'sd_init_end', assumed default net type 'wire' in rtl/hdmi_colorbar.v(102)
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file al_ip/pll_clk.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in al_ip/pll_clk.v(85)
+HDL-1007 : analyze verilog file rtl/hdmi_colorbar.v
+HDL-1007 : undeclared symbol 'clk_50m', assumed default net type 'wire' in rtl/hdmi_colorbar.v(80)
+HDL-1007 : undeclared symbol 'clk_50m_shift', assumed default net type 'wire' in rtl/hdmi_colorbar.v(81)
+HDL-1007 : undeclared symbol 'sd_miso', assumed default net type 'wire' in rtl/hdmi_colorbar.v(85)
+HDL-1007 : undeclared symbol 'sd_clk', assumed default net type 'wire' in rtl/hdmi_colorbar.v(86)
+HDL-1007 : undeclared symbol 'sd_cs_n', assumed default net type 'wire' in rtl/hdmi_colorbar.v(87)
+HDL-1007 : undeclared symbol 'sd_mosi', assumed default net type 'wire' in rtl/hdmi_colorbar.v(88)
+HDL-1007 : undeclared symbol 'sd_rd_en', assumed default net type 'wire' in rtl/hdmi_colorbar.v(96)
+HDL-1007 : undeclared symbol 'sd_rd_addr', assumed default net type 'wire' in rtl/hdmi_colorbar.v(97)
+HDL-1007 : undeclared symbol 'sd_rd_busy', assumed default net type 'wire' in rtl/hdmi_colorbar.v(98)
+HDL-1007 : undeclared symbol 'sd_rd_data_en', assumed default net type 'wire' in rtl/hdmi_colorbar.v(99)
+HDL-1007 : undeclared symbol 'sd_rd_data', assumed default net type 'wire' in rtl/hdmi_colorbar.v(100)
+HDL-1007 : undeclared symbol 'sd_init_end', assumed default net type 'wire' in rtl/hdmi_colorbar.v(102)
+HDL-1007 : analyze verilog file rtl/vga_ctrl.v
+HDL-1007 : analyze verilog file rtl/vga_pic.v
+HDL-1007 : analyze verilog file rtl/hdmi_colorbar.v
+HDL-1007 : undeclared symbol 'clk_50m', assumed default net type 'wire' in rtl/hdmi_colorbar.v(54)
+HDL-1007 : undeclared symbol 'clk_50m_shift', assumed default net type 'wire' in rtl/hdmi_colorbar.v(55)
+HDL-1007 : undeclared symbol 'sd_rd_en', assumed default net type 'wire' in rtl/hdmi_colorbar.v(104)
+HDL-1007 : undeclared symbol 'sd_rd_addr', assumed default net type 'wire' in rtl/hdmi_colorbar.v(105)
+HDL-1007 : undeclared symbol 'sd_rd_busy', assumed default net type 'wire' in rtl/hdmi_colorbar.v(106)
+HDL-1007 : undeclared symbol 'sd_rd_data_en', assumed default net type 'wire' in rtl/hdmi_colorbar.v(107)
+HDL-1007 : undeclared symbol 'sd_rd_data', assumed default net type 'wire' in rtl/hdmi_colorbar.v(108)
+HDL-1007 : undeclared symbol 'sd_init_end', assumed default net type 'wire' in rtl/hdmi_colorbar.v(110)
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file al_ip/pll_clk.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in al_ip/pll_clk.v(85)
+HDL-1007 : analyze verilog file rtl/hdmi_colorbar.v
+HDL-1007 : undeclared symbol 'clk_50m', assumed default net type 'wire' in rtl/hdmi_colorbar.v(54)
+HDL-1007 : undeclared symbol 'clk_50m_shift', assumed default net type 'wire' in rtl/hdmi_colorbar.v(55)
+HDL-1007 : undeclared symbol 'sd_rd_en', assumed default net type 'wire' in rtl/hdmi_colorbar.v(104)
+HDL-1007 : undeclared symbol 'sd_rd_addr', assumed default net type 'wire' in rtl/hdmi_colorbar.v(105)
+HDL-1007 : undeclared symbol 'sd_rd_busy', assumed default net type 'wire' in rtl/hdmi_colorbar.v(106)
+HDL-1007 : undeclared symbol 'sd_rd_data_en', assumed default net type 'wire' in rtl/hdmi_colorbar.v(107)
+HDL-1007 : undeclared symbol 'sd_rd_data', assumed default net type 'wire' in rtl/hdmi_colorbar.v(108)
+HDL-1007 : undeclared symbol 'sd_init_end', assumed default net type 'wire' in rtl/hdmi_colorbar.v(110)
+HDL-1007 : analyze verilog file rtl/vga_ctrl.v
+HDL-1007 : analyze verilog file rtl/vga_pic.v
+HDL-1007 : analyze verilog file rtl/SD/sd_ctrl.v
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file al_ip/pll_clk.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in al_ip/pll_clk.v(85)
+HDL-1007 : analyze verilog file rtl/hdmi_colorbar.v
+HDL-1007 : undeclared symbol 'clk_50m', assumed default net type 'wire' in rtl/hdmi_colorbar.v(54)
+HDL-1007 : undeclared symbol 'clk_50m_shift', assumed default net type 'wire' in rtl/hdmi_colorbar.v(55)
+HDL-1007 : undeclared symbol 'sd_rd_en', assumed default net type 'wire' in rtl/hdmi_colorbar.v(104)
+HDL-1007 : undeclared symbol 'sd_rd_addr', assumed default net type 'wire' in rtl/hdmi_colorbar.v(105)
+HDL-1007 : undeclared symbol 'sd_rd_busy', assumed default net type 'wire' in rtl/hdmi_colorbar.v(106)
+HDL-1007 : undeclared symbol 'sd_rd_data_en', assumed default net type 'wire' in rtl/hdmi_colorbar.v(107)
+HDL-1007 : undeclared symbol 'sd_rd_data', assumed default net type 'wire' in rtl/hdmi_colorbar.v(108)
+HDL-1007 : undeclared symbol 'sd_init_end', assumed default net type 'wire' in rtl/hdmi_colorbar.v(110)
+HDL-1007 : analyze verilog file rtl/vga_ctrl.v
+HDL-1007 : analyze verilog file rtl/vga_pic.v
+HDL-1007 : analyze verilog file rtl/SD/sd_ctrl.v
+HDL-1007 : analyze verilog file rtl/SD/sd_init.v
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file al_ip/pll_clk.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in al_ip/pll_clk.v(85)
+HDL-1007 : analyze verilog file rtl/hdmi_colorbar.v
+HDL-1007 : undeclared symbol 'clk_50m', assumed default net type 'wire' in rtl/hdmi_colorbar.v(54)
+HDL-1007 : undeclared symbol 'clk_50m_shift', assumed default net type 'wire' in rtl/hdmi_colorbar.v(55)
+HDL-1007 : undeclared symbol 'sd_rd_en', assumed default net type 'wire' in rtl/hdmi_colorbar.v(104)
+HDL-1007 : undeclared symbol 'sd_rd_addr', assumed default net type 'wire' in rtl/hdmi_colorbar.v(105)
+HDL-1007 : undeclared symbol 'sd_rd_busy', assumed default net type 'wire' in rtl/hdmi_colorbar.v(106)
+HDL-1007 : undeclared symbol 'sd_rd_data_en', assumed default net type 'wire' in rtl/hdmi_colorbar.v(107)
+HDL-1007 : undeclared symbol 'sd_rd_data', assumed default net type 'wire' in rtl/hdmi_colorbar.v(108)
+HDL-1007 : undeclared symbol 'sd_init_end', assumed default net type 'wire' in rtl/hdmi_colorbar.v(110)
+HDL-1007 : analyze verilog file rtl/vga_ctrl.v
+HDL-1007 : analyze verilog file rtl/vga_pic.v
+HDL-1007 : analyze verilog file rtl/SD/sd_ctrl.v
+HDL-1007 : analyze verilog file rtl/SD/sd_init.v
+HDL-1007 : analyze verilog file rtl/SD/sd_read.v
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file al_ip/pll_clk.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in al_ip/pll_clk.v(85)
+HDL-1007 : analyze verilog file rtl/hdmi_colorbar.v
+HDL-1007 : undeclared symbol 'clk_50m', assumed default net type 'wire' in rtl/hdmi_colorbar.v(54)
+HDL-1007 : undeclared symbol 'clk_50m_shift', assumed default net type 'wire' in rtl/hdmi_colorbar.v(55)
+HDL-1007 : undeclared symbol 'sd_rd_en', assumed default net type 'wire' in rtl/hdmi_colorbar.v(104)
+HDL-1007 : undeclared symbol 'sd_rd_addr', assumed default net type 'wire' in rtl/hdmi_colorbar.v(105)
+HDL-1007 : undeclared symbol 'sd_rd_busy', assumed default net type 'wire' in rtl/hdmi_colorbar.v(106)
+HDL-1007 : undeclared symbol 'sd_rd_data_en', assumed default net type 'wire' in rtl/hdmi_colorbar.v(107)
+HDL-1007 : undeclared symbol 'sd_rd_data', assumed default net type 'wire' in rtl/hdmi_colorbar.v(108)
+HDL-1007 : undeclared symbol 'sd_init_end', assumed default net type 'wire' in rtl/hdmi_colorbar.v(110)
+HDL-1007 : analyze verilog file rtl/vga_ctrl.v
+HDL-1007 : analyze verilog file rtl/vga_pic.v
+HDL-1007 : analyze verilog file rtl/SD/sd_ctrl.v
+HDL-1007 : analyze verilog file rtl/SD/sd_init.v
+HDL-1007 : analyze verilog file rtl/SD/sd_read.v
+HDL-1007 : analyze verilog file rtl/SD/sd_write.v
+RUN-1002 : start command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.184671s wall, 0.046875s user + 0.031250s system = 0.078125s CPU (1.3%)
+
+RUN-1004 : used memory is 542 MB, reserved memory is 482 MB, peak memory is 560 MB
+RUN-1003 : finish command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0" in  6.505820s wall, 0.140625s user + 0.062500s system = 0.203125s CPU (3.1%)
+
+RUN-1004 : used memory is 542 MB, reserved memory is 482 MB, peak memory is 560 MB
+GUI-1001 : Downloading succeeded!
+HDL-1007 : analyze verilog file rtl/hdmi_colorbar.v
+HDL-1007 : undeclared symbol 'clk_50m', assumed default net type 'wire' in rtl/hdmi_colorbar.v(55)
+HDL-1007 : undeclared symbol 'clk_50m_shift', assumed default net type 'wire' in rtl/hdmi_colorbar.v(56)
+HDL-1007 : analyze verilog file rtl/hdmi_colorbar.v
+HDL-1007 : undeclared symbol 'clk_50m', assumed default net type 'wire' in rtl/hdmi_colorbar.v(56)
+HDL-1007 : undeclared symbol 'clk_50m_shift', assumed default net type 'wire' in rtl/hdmi_colorbar.v(57)
+RUN-1001 : reset_run syn_1 phy_1.
+GUI-6001 WARNING: File C:/Users/Maxwiny/Desktop/SD_SDRAM_VGA/SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA.bit does not exist!
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-6001 WARNING: syn_1: run failed.
+RUN-1001 : open_run syn_1.
+RUN-1002 : start command "import_db C:/Users/Maxwiny/Desktop/SD_SDRAM_VGA/SD_SDRAM_VGA_Runs/syn_1/SD_SDRAM_VGA_elaborate.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+HDL-1007 : analyze verilog file rtl/hdmi_colorbar.v
+HDL-1007 : undeclared symbol 'clk_50m', assumed default net type 'wire' in rtl/hdmi_colorbar.v(56)
+HDL-1007 : undeclared symbol 'clk_50m_shift', assumed default net type 'wire' in rtl/hdmi_colorbar.v(57)
+RUN-1001 : reset_run syn_1 phy_1.
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-6001 WARNING: syn_1: run failed.
+RUN-1001 : open_run syn_1.
+RUN-1002 : start command "import_db C:/Users/Maxwiny/Desktop/SD_SDRAM_VGA/SD_SDRAM_VGA_Runs/syn_1/SD_SDRAM_VGA_elaborate.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+RUN-1001 : reset_run syn_1 phy_1.
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-6001 WARNING: syn_1: run failed.
+RUN-1001 : open_run syn_1.
+RUN-1002 : start command "import_db C:/Users/Maxwiny/Desktop/SD_SDRAM_VGA/SD_SDRAM_VGA_Runs/syn_1/SD_SDRAM_VGA_elaborate.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+RUN-1001 : reset_run syn_1 phy_1.
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-6001 WARNING: syn_1: run failed.
+RUN-1001 : open_run syn_1.
+RUN-1002 : start command "import_db C:/Users/Maxwiny/Desktop/SD_SDRAM_VGA/SD_SDRAM_VGA_Runs/syn_1/SD_SDRAM_VGA_elaborate.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+RUN-1001 : reset_run syn_1 phy_1.
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db C:/Users/Maxwiny/Desktop/SD_SDRAM_VGA/SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : clock net hdmi_out_clk_dup_1 will be merged with clock U_pll_clk/clk0_buf
+PHY-1001 : net sd_clk_dup_1 will be routed on clock mesh
+PHY-1001 : net sys_clk_dup_1 will be routed on clock mesh
+PHY-1001 : net sd_ctrl_inst/sd_read_inst/sys_clk will be routed on clock mesh
+PHY-1001 : eco open net = 0
+PHY-1001 : 1 feed throughs used by 1 nets
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+RUN-1002 : start command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.188966s wall, 0.078125s user + 0.093750s system = 0.171875s CPU (2.8%)
+
+RUN-1004 : used memory is 557 MB, reserved memory is 497 MB, peak memory is 574 MB
+RUN-1003 : finish command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0" in  6.512136s wall, 0.156250s user + 0.093750s system = 0.250000s CPU (3.8%)
+
+RUN-1004 : used memory is 557 MB, reserved memory is 497 MB, peak memory is 574 MB
+GUI-1001 : Downloading succeeded!
+RUN-1002 : start command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.183489s wall, 0.093750s user + 0.093750s system = 0.187500s CPU (3.0%)
+
+RUN-1004 : used memory is 557 MB, reserved memory is 498 MB, peak memory is 575 MB
+RUN-1003 : finish command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0" in  6.506267s wall, 0.187500s user + 0.109375s system = 0.296875s CPU (4.6%)
+
+RUN-1004 : used memory is 557 MB, reserved memory is 498 MB, peak memory is 575 MB
+GUI-1001 : Downloading succeeded!
+HDL-1007 : analyze verilog file rtl/SD/sd_ctrl.v
+HDL-1007 : analyze verilog file rtl/SD/sd_init.v
+RUN-1001 : reset_run syn_1 phy_1.
+GUI-6001 WARNING: File C:/Users/Maxwiny/Desktop/SD_SDRAM_VGA/SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA.bit does not exist!
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1002 : start command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.181398s wall, 0.078125s user + 0.031250s system = 0.109375s CPU (1.8%)
+
+RUN-1004 : used memory is 561 MB, reserved memory is 501 MB, peak memory is 578 MB
+RUN-1003 : finish command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0" in  6.504532s wall, 0.156250s user + 0.046875s system = 0.203125s CPU (3.1%)
+
+RUN-1004 : used memory is 561 MB, reserved memory is 501 MB, peak memory is 578 MB
+GUI-1001 : Downloading succeeded!
+HDL-1007 : analyze verilog file rtl/hdmi_colorbar.v
+HDL-1007 : undeclared symbol 'clk_50m', assumed default net type 'wire' in rtl/hdmi_colorbar.v(56)
+HDL-1007 : undeclared symbol 'clk_50m_shift', assumed default net type 'wire' in rtl/hdmi_colorbar.v(57)
+RUN-1001 : reset_run syn_1 phy_1.
+GUI-6001 WARNING: File C:/Users/Maxwiny/Desktop/SD_SDRAM_VGA/SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA.bit does not exist!
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db C:/Users/Maxwiny/Desktop/SD_SDRAM_VGA/SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : clock net hdmi_out_clk_dup_1 will be merged with clock U_pll_clk/clk0_buf
+PHY-1001 : net sd_clk_dup_1 will be routed on clock mesh
+PHY-1001 : net sys_clk_dup_1 will be routed on clock mesh
+PHY-1001 : net sd_ctrl_inst/sd_read_inst/sys_clk will be routed on clock mesh
+PHY-1001 : eco open net = 0
+PHY-1001 : 0 feed throughs used by 0 nets
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+RUN-1002 : start command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.182369s wall, 0.062500s user + 0.078125s system = 0.140625s CPU (2.3%)
+
+RUN-1004 : used memory is 574 MB, reserved memory is 517 MB, peak memory is 592 MB
+RUN-1003 : finish command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0" in  6.524420s wall, 0.140625s user + 0.078125s system = 0.218750s CPU (3.4%)
+
+RUN-1004 : used memory is 574 MB, reserved memory is 517 MB, peak memory is 592 MB
+GUI-1001 : Downloading succeeded!
+HDL-1007 : analyze verilog file rtl/hdmi_colorbar.v
+HDL-1007 : undeclared symbol 'clk_50m', assumed default net type 'wire' in rtl/hdmi_colorbar.v(56)
+HDL-1007 : undeclared symbol 'clk_50m_shift', assumed default net type 'wire' in rtl/hdmi_colorbar.v(57)
+RUN-1001 : reset_run syn_1 phy_1.
+GUI-6001 WARNING: File C:/Users/Maxwiny/Desktop/SD_SDRAM_VGA/SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA.bit does not exist!
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db C:/Users/Maxwiny/Desktop/SD_SDRAM_VGA/SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : clock net hdmi_out_clk_dup_1 will be merged with clock U_pll_clk/clk0_buf
+PHY-1001 : net sd_clk_dup_1 will be routed on clock mesh
+PHY-1001 : net sys_clk_dup_1 will be routed on clock mesh
+PHY-1001 : net sd_ctrl_inst/sd_read_inst/sys_clk will be routed on clock mesh
+PHY-1001 : eco open net = 0
+PHY-1001 : 2 feed throughs used by 2 nets
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+RUN-1002 : start command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.182294s wall, 0.078125s user + 0.031250s system = 0.109375s CPU (1.8%)
+
+RUN-1004 : used memory is 582 MB, reserved memory is 525 MB, peak memory is 600 MB
+RUN-1003 : finish command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0" in  6.523844s wall, 0.156250s user + 0.046875s system = 0.203125s CPU (3.1%)
+
+RUN-1004 : used memory is 582 MB, reserved memory is 525 MB, peak memory is 600 MB
+GUI-1001 : Downloading succeeded!
+RUN-1002 : start command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.188135s wall, 0.078125s user + 0.109375s system = 0.187500s CPU (3.0%)
+
+RUN-1004 : used memory is 583 MB, reserved memory is 525 MB, peak memory is 601 MB
+RUN-1003 : finish command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0" in  6.510939s wall, 0.187500s user + 0.109375s system = 0.296875s CPU (4.6%)
+
+RUN-1004 : used memory is 583 MB, reserved memory is 525 MB, peak memory is 601 MB
+GUI-1001 : Downloading succeeded!
+RUN-1002 : start command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.188232s wall, 0.046875s user + 0.031250s system = 0.078125s CPU (1.3%)
+
+RUN-1004 : used memory is 584 MB, reserved memory is 525 MB, peak memory is 601 MB
+RUN-1003 : finish command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0" in  6.529008s wall, 0.125000s user + 0.031250s system = 0.156250s CPU (2.4%)
+
+RUN-1004 : used memory is 584 MB, reserved memory is 525 MB, peak memory is 601 MB
+GUI-1001 : Downloading succeeded!
+RUN-1002 : start command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.188738s wall, 0.062500s user + 0.078125s system = 0.140625s CPU (2.3%)
+
+RUN-1004 : used memory is 584 MB, reserved memory is 526 MB, peak memory is 601 MB
+RUN-1003 : finish command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0" in  6.509081s wall, 0.171875s user + 0.078125s system = 0.250000s CPU (3.8%)
+
+RUN-1004 : used memory is 584 MB, reserved memory is 526 MB, peak memory is 601 MB
+GUI-1001 : Downloading succeeded!
+HDL-1007 : analyze verilog file rtl/SD/sd_ctrl.v
+HDL-1007 : analyze verilog file rtl/hdmi_colorbar.v
+HDL-1007 : undeclared symbol 'clk_50m', assumed default net type 'wire' in rtl/hdmi_colorbar.v(56)
+HDL-1007 : undeclared symbol 'clk_50m_shift', assumed default net type 'wire' in rtl/hdmi_colorbar.v(57)
+HDL-1007 : analyze verilog file rtl/SD/sd_init.v
+RUN-1001 : reset_run syn_1 phy_1.
+GUI-6001 WARNING: File C:/Users/Maxwiny/Desktop/SD_SDRAM_VGA/SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA.bit does not exist!
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db C:/Users/Maxwiny/Desktop/SD_SDRAM_VGA/SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : clock net hdmi_out_clk_dup_1 will be merged with clock U_pll_clk/clk0_buf
+PHY-1001 : net sd_clk_dup_1 will be routed on clock mesh
+PHY-1001 : net sys_clk_dup_1 will be routed on clock mesh
+PHY-1001 : net sd_ctrl_inst/sd_read_inst/sys_clk will be routed on clock mesh
+PHY-1001 : eco open net = 0
+PHY-1001 : 1 feed throughs used by 1 nets
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+RUN-1002 : start command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit SD_SDRAM_VGA_Runs/phy_1/SD_SDRAM_VGA.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.182800s wall, 0.078125s user + 0.093750s system = 0.171875s CPU (2.8%)
+
+RUN-1004 : used memory is 583 MB, reserved memory is 525 MB, peak memory is 601 MB
+RUN-1003 : finish command "download -bit SD_SDRAM_VGA_Runs\phy_1\SD_SDRAM_VGA.bit -mode jtag -spd 7 -sec 64 -cable 0" in  6.501492s wall, 0.171875s user + 0.125000s system = 0.296875s CPU (4.6%)
+
+RUN-1004 : used memory is 583 MB, reserved memory is 525 MB, peak memory is 601 MB
+GUI-1001 : Downloading succeeded!
+GUI-5005 WARNING: Unknown file icon ...
